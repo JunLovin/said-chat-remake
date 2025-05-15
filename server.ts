@@ -31,5 +31,5 @@ ws.on('connection', (socket: WebSocket) => {
 })
 
 ws.on('listening', () => {
-    console.log("Servidor iniciado en ws:")
+    console.log("Servidor iniciado en ws://localhost:7173")
 })
