@@ -1,54 +1,84 @@
-# React + TypeScript + Vite
+# 🚀 Said Re-Chat
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+¡Bienvenido a **Said Re-Chat**! 🎉  
+Una aplicación de chat en tiempo real, moderna, minimalista y lista para conectar a personas de manera sencilla y divertida.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Visualización
+![Screenshot](./public/screenshot.png)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## ✨ Características principales
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+- 💬 **Chat en tiempo real:** Envía y recibe mensajes instantáneamente gracias a WebSockets.
+- 🧑‍💻 **Elige tu usuario:** Personaliza tu nombre de usuario antes de entrar al chat.
+- 🖼️ **Foto de perfil personalizada:** Usa cualquier imagen de internet como tu avatar para que todos te reconozcan.
+- 🎨 **Interfaz moderna:** Inspirada en el estilo Ghibli, con un diseño limpio y atractivo.
+- 📱 **Responsive:** Perfecto para escritorio y dispositivos móviles.
+- 🔒 **Sin registros ni contraseñas:** ¡Solo elige tu nombre y entra a la conversación!
+- 🌙 **Modo oscuro:** Interfaz amigable para tus ojos, ideal para chatear de noche.
+- 🧩 **Componentes reutilizables:** Construido con React y TypeScript, usando componentes UI personalizados.
+- ⚡ **Experiencia fluida:** Animaciones y transiciones suaves para una experiencia premium.
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 🛠️ Tecnologías utilizadas
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+- **React** + **TypeScript**
+- **Vite** para desarrollo ultrarrápido
+- **TailwindCSS** para estilos modernos
+- **WebSockets** para comunicación en tiempo real
+- **ShadCN** para componentes accesibles y personalizables
+
+---
+
+## 🚦 ¿Cómo empezar?
+
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/tu-usuario/said-re-chat.git\
+   ```
+
+2. Instala las dependencias:
+   ```bash
+   npm install
+   ```
+
+3. Inicia el servidor de desarrollo:
+   ```bash
+   npm run dev
+   ```
+
+4. Inicia el servidor WebSocket:
+   ```bash
+   npm start
+   ```
+
+5. ¡Listo! Abre http://localhost:5173 y comienza a chatear.
+
+---
+
+## 🖼️ Personaliza tu experiencia
+
+- Nombre de usuario: Elige cualquier nombre antes de entrar.
+- Foto de perfil: Pega el link de cualquier imagen pública (por ejemplo, tu avatar de GitHub).
+
+---
+
+## 🤝 Contribuciones
+
+¿Tienes ideas para mejorar el chat? ¡Las contribuciones son bienvenidas! Haz un fork, crea tu rama y envía un pull request 🚀
+
+---
+
+## 📢 Nota importante
+
+Las fotos de perfil deben ser enlaces públicos (por ejemplo, imágenes de internet). No se almacenan imágenes en el servidor, ¡así que tu privacidad está protegida!
+
+---
+
+## 🧙‍♂️ Autor
+
+Desarrollado con 💙 por [Said Ruiz](https://said-beta.vercel.app)
