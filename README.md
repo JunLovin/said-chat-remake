@@ -73,6 +73,14 @@ Una aplicación de chat en tiempo real, moderna, minimalista y lista para conect
 
 ---
 
+## 📄 Licencia
+
+Este proyecto está bajo la **Licencia MIT Modificada - Said Re-Chat**.  
+Consulta el archivo [LICENSE](./LICENSE) para más detalles.  
+**No está permitido copiar y pegar el código literalmente, ni venderlo, y siempre deben mantenerse los créditos al autor.**
+
+---
+
 ## 📢 Nota importante
 
 Las fotos de perfil deben ser enlaces públicos (por ejemplo, imágenes de internet). No se almacenan imágenes en el servidor, ¡así que tu privacidad está protegida!
